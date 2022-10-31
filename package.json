@@ -1,0 +1,15 @@
+{
+  "name": "cert-manager",
+  "version": "1.0.0",
+  "description": "Manages Site Certificates for the Discord bot(s)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": ["Certificates", "Cert", "Manager"],
+  "author": "Patrick",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "winston": "^3.8.1"
+  }
+}

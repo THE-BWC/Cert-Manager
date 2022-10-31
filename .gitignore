@@ -1,0 +1,11 @@
+# Ignore Idea folder
+.idea
+cert-manager.iml
+
+# Ignore node_modules
+node_modules
+
+# Project Files
+CertManager.log
+ecosystem.config.js
+package-lock.json

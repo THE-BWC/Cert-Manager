@@ -1,0 +1,13 @@
+module.exports = {
+    apps: [{
+        name: "Node-Cert-Manager",
+        script: "./app.js",
+        env: {
+            NODE_ENV: "production",
+            CERT_FOLDER: "",
+            KEY_FOLDER: "",
+            DEST_FOLDER: ""
+        },
+        restart_delay: 4000
+    }]
+}
